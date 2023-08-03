@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="project.html"><img src="pngegg (2).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/project.html">ГЛАВНАЯ</a></li>
+                    <li><a href="http://127.0.0.1:5500/remont.html.html">РЕМОНТ</a></li>
+                    <li><a href="http://127.0.0.1:5500/prodaja.html.html">ПРОДАЖА</a></li>
+                    <li><a href="http://127.0.0.1:5500/svaz.html.html">СВЯЗАТЬСЯ С НАМИ</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Продажа аппаратов известных фирм со 100% гарантией</h1>
+
+<!------Продажа ------>
+<section class="sales">
+    <h1>Продажа аппаратов известных фирм со 100% гарантией</h1>
+    <p> </p>
+
+    <div class="row">
+        <div class="sales-col">
+            <img src="resanta.png">
+            <h3>РЕСАНТА</h3>
+            <p>Ресанта – это бренд, который за несколько десятилетий существования заслужил доверие потребителей и надежно закрепился на рынке. Последние несколько лет РЕСАНТА - лидер рынка сварочных инверторов и стабилизаторов.</p>
+        </div>
+
+        <div class="sales-col">
+            <img src="reostat.png">
+            <h3>РЕОСТАТ</h3>
+            <p>Реостат - это бренд обладает таким же качеством как и 'ресанта' но менне известный</p>
+        </div>
+
+        <div class="sales-col">
+            <img src="bizon.png">
+            <h3>БИЗОН</h3>
+            <p>Бизон — российская торговая марка сварочных аппаратов.Торговая марка «БИЗОН» принадлежит компании «ИнтерИнструмент» — одному из лидеров на мировом рынке</p>
+        </div>
+    </div>
+
+</section> 
+
+<!------подвал ------>
+<section class="footer">
+<h2>Адреса</h2>
+<p>Р-К "PAХАТ.KZ" 6 РЯД 1 БУТИК</p>
+<p>МКР "КАЛКАМАН-2" УЛ.АЙТЕЙ БАТЫРА 77</p>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu ------>    
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "-0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
